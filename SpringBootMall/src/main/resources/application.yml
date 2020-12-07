@@ -1,0 +1,17 @@
+server:
+  port: 80
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2291337625@qq.com
+    password: kyzmlvyuvifmecga
+    default-encoding: utf-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          required: true
+
+
+
