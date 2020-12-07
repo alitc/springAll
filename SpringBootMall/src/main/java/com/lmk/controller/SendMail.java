@@ -23,7 +23,7 @@ public class SendMail {
         try {
             SimpleMailMessage mailMessage=new SimpleMailMessage();
             mailMessage.setFrom(from);
-            mailMessage.setTo("2291337625@qq.com");
+            mailMessage.setTo("22@qq.com");
             mailMessage.setSubject("一封简单的邮件");
             mailMessage.setText("使用Spring Boot发送简单邮件。");
             javaMailSender.send(mailMessage);
